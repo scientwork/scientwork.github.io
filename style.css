@@ -1,0 +1,81 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+.map {
+	position: relative;
+	text-align: center;
+}
+
+img {
+	width: 90%;
+}
+#mp {
+	width: 70%;
+}
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.point {
+	cursor: pointer;
+}
+
+#q1 {
+	opacity: 0;
+}
+#q2 {
+	opacity: 0;
+}
+#q3 {
+	opacity: 0;
+}
+#q4 {
+	opacity: 0;
+}
+#q5 {
+	opacity: 0;
+}
+#q6 {
+	opacity: 0;
+}
+#q7 {
+	opacity: 0;
+}
+#q8 {
+	opacity: 0;
+}
+#q9 {
+	opacity: 0;
+}
+#q10 {
+	opacity: 0;
+}
+#q11 {
+	opacity: 0;
+}
+
+
+.description {
+	font-size: 20px;
+	display: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 30%;
+	height: 60%;
+	left: 50px;
+	bottom: 50px;
+	background-color: white; 
+	overflow-y: auto;
+}
