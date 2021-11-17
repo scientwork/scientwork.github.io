@@ -2,7 +2,6 @@ body {
 	padding: 0px;
 	margin: 0px;
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
 
 .map {
@@ -98,4 +97,71 @@ svg {
 	position: absolute;
 	margin: 5px 0px 0px 5px;
 	z-index: 1;
+}
+
+#check_yourself {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 10px;
+	background-color: #C8E3D4;
+	cursor: pointer;
+}
+#check_yourself:active {
+	background-color: #87AAAA;
+}
+.check {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 10px;
+	background-color: #C8E3D4;
+	cursor: pointer;
+}
+.check:active {
+	background-color: #87AAAA;
+}
+
+.quiz_by {
+	margin-left: 10px;
+	font-size: 20px;
+	display: none;
+}
+.quiz_en {
+	margin-left: 10px;
+	font-size: 20px;
+	display: none;
+}
+.w1_1 {color:black;}
+.w1_2 {color:black;}
+.w1_3 {color:black;}
+.w2_1 {color:black;}
+.w2_2 {color:black;}
+.w2_3 {color:black;}
+.w3_1 {color:black;}
+.w3_2 {color:black;}
+.w3_3 {color:black;}
+.w4_1 {color:black;}
+.w4_2 {color:black;}
+.w4_3 {color:black;}
+.w5_1 {color:black;}
+.w5_2 {color:black;}
+.w5_3 {color:black;}
+.w6_1 {color:black;}
+.w6_2 {color:black;}
+.w6_3 {color:black;}
+.w7_1 {color:black;}
+.w7_2 {color:black;}
+.w7_3 {color:black;}
+.w8_1 {color:black;}
+.w8_2 {color:black;}
+.w8_3 {color:black;}
+.w9_1 {color:black;}
+.w9_2 {color:black;}
+.w9_3 {color:black;}
+.w10_1 {color:black;}
+.w10_2 {color:black;}
+.w10_3 {color:black;}
+dfn {
+	margin-left: 10px;
 }
